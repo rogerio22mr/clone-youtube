@@ -1,0 +1,203 @@
+@import url('./reset.css');
+
+body {
+    background-color: #F9F9F9;
+}
+
+.menu-content {
+    background-color: white;
+    padding: 10px;
+}
+
+.menu-content > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-content > ul > li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-content > ul > .youtube-logo {
+    padding: .3rem;
+}
+
+.menu-content > ul > .youtube-logo > .menu-icon {
+    margin-right: 1rem;
+    width: 1.5rem;
+}
+
+.menu-content > ul > .youtube-logo > .img-youtube {
+    width: 6rem;
+}
+
+.menu-content > ul > .search-box-btn > input {
+    border: 1px solid #B4ABB1;
+    width: 20rem;
+    height: 2rem;
+}
+
+.menu-content > ul > .search-box-btn > img {
+    background-color: #F8F8F8;
+    border: 1px solid #B4ABB1;
+    padding: .5rem;
+    width: 1rem;
+}
+
+.menu-content > ul > .content-video-bell-avatar > .video {
+    width: 1.5rem;
+    margin-right: 1.2rem;
+}
+
+.menu-content > ul > .content-video-bell-avatar > .bell {
+    width: 1.5rem;
+    margin-right: 1.2rem;
+}
+
+.menu-content > ul > .content-video-bell-avatar > .avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100px;
+    margin-right: 1.2rem;
+}
+
+.page-content {
+    display: flex;
+}
+
+.page-content > .video-content {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    padding-top: 30px;
+    padding-left: 8%;
+}
+
+.page-content > .video-content > .thumb-video {
+    width: 98%;
+    margin-bottom: .6rem;
+}
+
+.page-content > .video-content > h1 {
+    font-size: 1.25rem;
+    margin-bottom: .6rem;
+}
+
+.page-content > .video-content > .video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .9rem;
+    width: 97%;
+}
+
+.page-content > .video-content > .video-info > .name-subscribers > h2 {
+    font-size: 1rem;
+}
+
+.page-content > .video-content > .video-info > .name-subscribers > p {
+    color: #515151;
+}
+
+.page-content > .video-content > .video-info > button {
+    padding: .7rem;
+    width: 10rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: #CC0000;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.page-content > .video-content > .video-info > .like {
+    display: flex;
+    align-items: center;
+}
+
+.page-content > .video-content > .video-info > .deslike {
+    display: flex;
+    align-items: center;
+}
+
+.page-content > .video-content > .video-info > .share {
+    display: flex;
+    align-items: center;
+}
+
+.page-content > .video-content > .video-info > .download {
+    display: flex;
+    align-items: center;
+}
+
+.page-content > .video-content > .video-info > .like > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .6rem;
+}
+
+.page-content > .video-content > .video-info > .deslike > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .6rem;
+}
+
+.page-content > .video-content > .video-info > .share > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .6rem;
+}
+
+.page-content > .video-content > .video-info > .download > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .6rem;
+}
+
+.page-content > .video-content > p {
+    margin-bottom: .6rem;
+}
+
+.page-content > .video-content > .visualizacao {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.page-content > .video-content > .description {
+    color: #515151;
+    font-size: .9rem;
+    width: 55%;
+}
+
+.page-content > .list-videos-content {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    padding-top: 30px;
+}
+
+.page-content > .list-videos-content > .video-card {
+    display: flex;
+    margin-bottom: .7rem;
+}
+
+.page-content > .list-videos-content > .video-card img {
+    margin-right: 7px;
+}
+
+.page-content > .list-videos-content > .video-card h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.page-content > .list-videos-content > .video-card .channel {
+    margin-bottom: 5px;
+}
+
+.page-content > .list-videos-content > .video-card p {
+    font-size: .75rem;
+    color: #515151;
+}
